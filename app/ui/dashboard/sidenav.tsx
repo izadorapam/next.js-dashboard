@@ -26,7 +26,6 @@ export default function SideNav() {
             'use server';
             await signOut({ redirectTo: '/' });
           }}
-          method="post"
         >
 
           <button
